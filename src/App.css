@@ -1,7 +1,7 @@
-.App {
-  text-align: center;
+.App{
+  font-family: 'Playfair Display', serif;
+  background: radial-gradient(70.66% 33.2% at 85.52% 7.67%, rgba(32, 108, 255, 0.2) 17.19%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(0deg, rgba(224, 233, 255, 0.2), rgba(224, 233, 255, 0.2)), linear-gradient(180deg, rgba(72, 164, 108, 0) -48.14%, rgba(11, 134, 60, 0.4) 100%);
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

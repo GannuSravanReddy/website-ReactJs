@@ -1,0 +1,12 @@
+l = [5,2,6,1,9,7,3,8]
+j =[]
+i=0
+for i in len(l):
+    print(i)
+    if i%2 == 0:
+        j.append(l[i])
+        l.remove(l[i])
+l.sort()
+j.sort(reverse=True)
+print(l+j)
+print(6%2)
